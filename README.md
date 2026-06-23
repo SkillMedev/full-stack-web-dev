@@ -1,8 +1,8 @@
 # Full-Stack Web Dev
 
-**Next.js to Postgres — build and ship a modern web app end to end.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For devs shipping a Next.js + Postgres app: auth, billing, and a fast launch end to end.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
 
-The full modern web stack as skills. Next.js App Router, GraphQL and database schema design, OAuth, Stripe billing, Supabase, web performance, and clean API design.
+Reach for this when you're building a real Next.js + Supabase/Postgres product and need it production-ready, not just running locally. It carries you from data model and API to OAuth login, Stripe subscriptions, and a fast, Core-Web-Vitals-clean launch — so the full path from schema to shipped feature is covered by one coherent stack instead of stitched-together advice.
 
 ⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 

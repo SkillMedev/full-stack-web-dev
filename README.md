@@ -14,14 +14,14 @@ Reach for this when you're building a real Next.js + Supabase/Postgres product a
 
 ## Skills in this pack
 
-- **[Next.js App Router](skills/nextjs-app-router/SKILL.md)** — Server components, streaming, and route patterns for the Next.js App Router done right.
-- **[GraphQL Schema](skills/graphql-schema/SKILL.md)** — Designs GraphQL schemas with proper types, resolvers, N+1 prevention, and federation.
-- **[Database Schema Designer](skills/database-schema/SKILL.md)** — Designs normalized relational schemas with indexes, constraints, and migration strategies.
-- **[OAuth & Auth Flow](aouellets)** — Implements OAuth 2.0, JWT, and session auth correctly with security best practices. _(external — see source)_
-- **[Stripe Expert](skills/stripe-integration/SKILL.md)** — Implements Stripe subscriptions, webhooks, and idempotency with proper error handling.
-- **[Supabase Expert](skills/supabase-expert/SKILL.md)** — Designs Supabase schemas, RLS policies, Edge Functions, and real-time subscriptions.
-- **[Web Performance](skills/web-performance/SKILL.md)** — Audits and fixes Core Web Vitals — LCP, CLS, INP — with concrete code changes.
-- **[REST API Design](skills/api-design/SKILL.md)** — Designs RESTful APIs with consistent naming, versioning, error codes, and OpenAPI documentation.
+- **[Next.js App Router](skills/nextjs-app-router/SKILL.md)** — Builds and reviews Next.js App Router code — server/client component boundaries, data fetching, caching and revalidation choices, streaming with Suspense, and Server Action mutations — and delivers routes where every dynamic-vs-cached decision is explicit.
+- **[GraphQL Schema](skills/graphql-schema/SKILL.md)** — Designs GraphQL schemas and resolvers that scale — domain-modeled types, Relay pagination, DataLoader batching to kill N+1, mutation payloads with typed user errors, and depth/complexity limits that stop abusive queries.
+- **[Database Schema Designer](skills/database-schema/SKILL.md)** — Designs normalized, constrained, migration-friendly relational schemas — entity modeling, key and type selection, indexes derived from real query patterns, and safe forward/rollback migrations.
+- **[OAuth & Auth Flow](https://skillme.dev/skill/oauth-flow)** — Implements OAuth 2.0, JWT, and session auth correctly with security best practices. _(external — see source)_
+- **[Stripe Expert](skills/stripe-integration/SKILL.md)** — Implements Stripe payments, subscriptions, and webhooks so billing state stays correct — Checkout Sessions, signature-verified idempotent webhook handlers, dunning, and SCA handling.
+- **[Supabase Expert](skills/supabase-expert/SKILL.md)** — Builds secure Supabase apps — Row Level Security policies as the authorization layer, schema design against auth.users, Edge Functions for service-role work, realtime subscriptions, and versioned migrations.
+- **[Web Performance](skills/web-performance/SKILL.md)** — Diagnoses and fixes Core Web Vitals — LCP, INP, and CLS — through an ordered audit procedure with concrete code-level changes for images, fonts, JavaScript, and third-party scripts.
+- **[REST API Design](skills/api-design/SKILL.md)** — Designs REST API surfaces — resource naming, HTTP method and status-code semantics, error shapes, pagination, and filtering — and delivers an endpoint spec a consumer can build against without asking questions.
 
 ## License
 

@@ -1,16 +1,17 @@
 # Full-Stack Web Dev
 
-**For devs shipping a Next.js + Postgres app: auth, billing, and a fast launch end to end.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For devs shipping a Next.js + Postgres app: auth, billing, and a fast launch end to end.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-full-stack-web-dev).
 
 Reach for this when you're building a real Next.js + Supabase/Postgres product and need it production-ready, not just running locally. It carries you from data model and API to OAuth login, Stripe subscriptions, and a fast, Core-Web-Vitals-clean launch - so the full path from schema to shipped feature is covered by one coherent stack instead of stitched-together advice.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/full-stack-web-dev](https://skillme.dev/pack/full-stack-web-dev) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/full-stack-web-dev?utm_source=github&utm_medium=readme&utm_campaign=pack-full-stack-web-dev) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add nextjs-app-router graphql-schema database-schema stripe-integration supabase-expert web-performance api-design --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/full-stack-web-dev`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -26,4 +27,4 @@ Reach for this when you're building a real Next.js + Supabase/Postgres product a
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-full-stack-web-dev).
